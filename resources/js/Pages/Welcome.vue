@@ -10,7 +10,7 @@ const decrement = () => counterStore.decrement();
 </script>
 
 <template>
-  <div>
+  <div class="bg-red-500">
     <h2>Counter: {{ count }}</h2>
     <h3>Double: {{ doubleCount }}</h3>
     <button @click="increment">+</button>
